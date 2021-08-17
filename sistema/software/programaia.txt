@@ -1,0 +1,16 @@
+
+
+white (sum(errortotal>0.01))
+fori=1;n
+	grad(:,i)=x(:,i)+fd(i)+8f(i)-t(i));
+end
+w=w-tp*gradienteT';
+e=w*x;
+f=1./(1+exp(-e));
+fd=f.*(1-f);
+errortotal=0.5*(f-t).^2;
+sum(errortotal)
+end
+*********************************************************************************************************************************************
+function perceptronunaneuronaconmatlab
+x=[0 0 1;011101111];
